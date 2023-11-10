@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (topics_quiz) JobQueued: {'identifier': 'topics_quiz', 'dependencies': OrderedDict()}
+[0.000912] (topics_quiz) JobStarted: {'identifier': 'topics_quiz'}
+[0.040571] (topics_quiz) JobProgress: {'identifier': 'topics_quiz', 'progress': 'cmake'}
+[0.041167] (topics_quiz) Command: {'cmd': ['/usr/bin/cmake', '/home/ajf/ROS2_Cpp_tutorial_path/src/agv_sim_oa_sub_pub', '-DCMAKE_INSTALL_PREFIX=/home/ajf/ROS2_Cpp_tutorial_path/install/topics_quiz'], 'cwd': '/home/ajf/ROS2_Cpp_tutorial_path/build/topics_quiz', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LC_TIME', 'en_US.UTF-8'), ('USER', 'ajf'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/ajf'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ajf'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.84.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/ajf/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2361'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2848'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10608'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('LOGNAME', 'ajf'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:37447'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/ajf'), ('USERNAME', 'ajf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/ajf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/ajf:@/tmp/.ICE-unix/2820,unix/ajf:/tmp/.ICE-unix/2820'), ('INVOCATION_ID', '3a58e1aa1c5340d9865a03d3e4093e71'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6205bcd8fb.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/ajf/ROS2_Cpp_tutorial_path/build/topics_quiz'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/ajf'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099740] (-) TimerEvent: {}
+[0.153829] (topics_quiz) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199842] (-) TimerEvent: {}
+[0.260087] (topics_quiz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.272608] (topics_quiz) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299953] (-) TimerEvent: {}
+[0.370236] (topics_quiz) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.384814] (topics_quiz) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.386633] (topics_quiz) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.387598] (topics_quiz) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.393303] (topics_quiz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400060] (-) TimerEvent: {}
+[0.500394] (-) TimerEvent: {}
+[0.506159] (topics_quiz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.521478] (topics_quiz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.521909] (topics_quiz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.522852] (topics_quiz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.547496] (topics_quiz) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.547719] (topics_quiz) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.547806] (topics_quiz) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.547884] (topics_quiz) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.547959] (topics_quiz) StderrLine: {'line': b'\n'}
+[0.548048] (topics_quiz) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.548124] (topics_quiz) StderrLine: {'line': b'  any of the following names:\n'}
+[0.548200] (topics_quiz) StderrLine: {'line': b'\n'}
+[0.548274] (topics_quiz) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.548347] (topics_quiz) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.548422] (topics_quiz) StderrLine: {'line': b'\n'}
+[0.548494] (topics_quiz) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.548612] (topics_quiz) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.548725] (topics_quiz) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.548801] (topics_quiz) StderrLine: {'line': b'  has been installed.\n'}
+[0.548874] (topics_quiz) StderrLine: {'line': b'\n'}
+[0.548947] (topics_quiz) StderrLine: {'line': b'\x1b[0m\n'}
+[0.549020] (topics_quiz) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.549100] (topics_quiz) StdoutLine: {'line': b'See also "/home/ajf/ROS2_Cpp_tutorial_path/build/topics_quiz/CMakeFiles/CMakeOutput.log".\n'}
+[0.553670] (topics_quiz) CommandEnded: {'returncode': 1}
+[0.554789] (topics_quiz) JobEnded: {'identifier': 'topics_quiz', 'rc': 1}
+[0.565358] (-) EventReactorShutdown: {}

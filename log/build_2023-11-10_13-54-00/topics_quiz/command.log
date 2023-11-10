@@ -1,0 +1,2 @@
+Invoking command in '/home/ajf/ROS2_Cpp_tutorial_path/build/topics_quiz': /usr/bin/cmake /home/ajf/ROS2_Cpp_tutorial_path/src/agv_sim_oa_sub_pub -DCMAKE_INSTALL_PREFIX=/home/ajf/ROS2_Cpp_tutorial_path/install/topics_quiz
+Invoked command in '/home/ajf/ROS2_Cpp_tutorial_path/build/topics_quiz' returned '1': /usr/bin/cmake /home/ajf/ROS2_Cpp_tutorial_path/src/agv_sim_oa_sub_pub -DCMAKE_INSTALL_PREFIX=/home/ajf/ROS2_Cpp_tutorial_path/install/topics_quiz
