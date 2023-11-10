@@ -15,10 +15,11 @@ public:
     subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
         "scan", 1, std::bind(&TopicsQuiz::laser_scanner_reader, this, _1));
     timer_ = this->create_wall_timer(
-        50ms, std::bind(&TopicsQuiz::robot_commnader, this));
+        100ms, std::bind(&TopicsQuiz::robot_commnader, this));
   }
 
 private:
+  int counter_wait = 0;
   void robot_commnader() {
     float left_dis_sensor = 0;
     float right_dis_sensor = 0;
@@ -43,7 +44,7 @@ private:
     command.linear.x = 0;
     command.angular.z = 0;
     if (right_dis_sensor > 1 && left_dis_sensor > 1 && mid_dis_sensor > 1) {
-      command.linear.x = 3;
+      command.linear.x = 1.5;
       command.angular.z = 0;
     } else if (right_dis_sensor < 1) {
       command.linear.x = 0.0;
@@ -59,9 +60,17 @@ private:
       RCLCPP_INFO(this->get_logger(), "'%f' ,", vector_ranges[i]);
     }
     RCLCPP_INFO(this->get_logger(), "*********************");*/
-    RCLCPP_INFO(this->get_logger(),
-                "R : '%f' , M : '%f' , L :'%f' , size: '%ld'", right_dis_sensor,
-                mid_dis_sensor, left_dis_sensor, laser_ranges.size());
+    if (counter_wait < 50) {
+      counter_wait++;
+      command.linear.x = 0.0;
+      command.angular.z = 0;
+      RCLCPP_INFO(this->get_logger(), "'%d", counter_wait);
+    } else {
+      RCLCPP_INFO(this->get_logger(),
+                  "R : '%f' , M : '%f' , L :'%f' , size: '%ld'",
+                  right_dis_sensor, mid_dis_sensor, left_dis_sensor,
+                  laser_ranges.size());
+    }
     publisher_->publish(command);
   }
   void laser_scanner_reader(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
